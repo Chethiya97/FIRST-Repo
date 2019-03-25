@@ -1,0 +1,2 @@
+download('direct:https://gitlab.com/flipxfx/download-git-repo-fixture.git#my-branch', 'test/tmp', { clone: true }, function (err) {
+  console.log(err ? 'Error' : 'Success')
